@@ -1,0 +1,44 @@
+{
+    /* Workbench */
+    "workbench.startupEditor": "newUntitledFile",
+    // Icons
+    "workbench.iconTheme": "vscode-icons",
+    /* Explorer */
+    "explorer.confirmDelete": false,
+    /* Files */
+    // Autosave
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    // Encoding 
+    "files.encoding": "utf8",
+    /* Editor */
+    // Indentation
+    "editor.detectIndentation": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.autoIndent": true,
+    // Rulers
+    "editor.rulers": [
+        80,
+        120
+    ],
+    /* Integrated Terminal */
+    // Appearance  
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.scrollback": 200,
+    // COMSPEC
+    /// Windows Command Prompt
+    //"terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    // Powershell
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    // Git Bash
+    // "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    /* Languages */
+    // Clojure
+    "clojureVSCode.autoStartNRepl": true,
+    "clojureVSCode.formatOnSave": false,
+    /* VCS */
+    // Git
+    "git.autofetch": true
+}
