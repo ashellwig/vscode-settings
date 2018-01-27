@@ -1,0 +1,7 @@
+# .gitignore
+
+# Backup Files
+*.bak
+**.bak
+*.*.bak
+.bak/
