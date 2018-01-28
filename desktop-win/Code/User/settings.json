@@ -1,0 +1,47 @@
+{
+    /* Terminal */
+    // Problems
+    "problems.autoReveal": false,
+    // Integrated
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    /* Editor */
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    /* Workbench */
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.iconTheme": "vscode-icons",
+    /* VSC */
+    // Visual Studio Team Services
+    "tfvc.location": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer\\TF.exe",
+    "team.showWelcomeMessage": false,
+    // Git
+    "git.autofetch": true,
+    "git.defaultCloneDirectory": "C:\\Users\\hellw\\Documents\\PORTFOLIO",
+    "git.path": "C:\\Program Files\\Git\\cmd\\git.exe",
+    /* Languages */
+    // C & C++
+    "C_Cpp.clang_format_fallbackStyle": "Visual Studio",
+    "C_Cpp.clang_format_style": "Visual Studio",
+    "[cpp]": {
+        "editor.autoIndent": true
+    },
+    // JavaScript
+    "npm-intellisense.importQuotes": "'",
+    "eslint.packageManager": "npm",
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact"
+    ],
+    "[json]": {
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.tabSize": 2
+    },
+    // Elm
+    "elm.analyseEnabled": true,
+    "elm.formatOnSave": true,
+    "elm.workspaceFilesExcludePatternUsedBySymbols": "**/{node_modules,elm-stuff}/**"
+}
